@@ -1,0 +1,16 @@
+{
+  "name": "solana-pk-decoder",
+  "version": "1.0.0",
+  "description": "export from a bs58 private key to an Uint8Array and vice versa",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "FMH",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/web3.js": "^1.33.0",
+    "bs58": "^4.0.1"
+  }
+}
